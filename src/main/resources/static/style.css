@@ -1,0 +1,111 @@
+/* Reset basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and overall layout */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Header styling */
+header {
+    background-color: #2a4a6b;
+    color: #fff;
+    padding: 1em 0;
+    width: 100%;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header h2 {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-top: 0.5em;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    margin-top: 1em;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styling */
+main {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+}
+
+.intro {
+    padding: 2em;
+    background-color: #e3eaf5;
+    border-radius: 8px;
+    margin-bottom: 1.5em;
+}
+
+.intro h3 {
+    font-size: 1.8em;
+    color: #2a4a6b;
+    margin-bottom: 0.5em;
+}
+
+.intro p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Login link section */
+.login {
+    font-size: 1em;
+    margin-top: 1.5em;
+}
+
+.login a {
+    color: #2a4a6b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 2em;
+    padding: 1em;
+    background-color: #2a4a6b;
+    color: #fff;
+    width: 100%;
+}
+
+footer p {
+    font-size: 0.9em;
+}
